@@ -15,6 +15,8 @@ import CartList from '@/views/CartList/CartList.vue'
 import Checkout from '@/views/Checkout/checkout.vue'
 import NoteList from '@/views/Note/NoteList.vue'
 import QRcodeTickets from '@/views/QRcode/QRcodeTickets.vue'
+import QRDonePage from '@/views/QRcode/QRDonePage.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -79,11 +81,8 @@ const router = createRouter({
     {
       path:'/note',
       component:NoteList
-    },
-    {
-      path:'/qr',
-      component:QRcodeTickets
     }
+
   ]
 })
 

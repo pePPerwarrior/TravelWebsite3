@@ -89,9 +89,7 @@
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
-    
-    /* text-align: center; */
-    /* justify-content: center; */
+ 
   }
   
   .weather-bar h3 {

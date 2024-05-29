@@ -38,6 +38,7 @@ export default defineConfig({
                   @use "@/styles/var.scss" as *;
     `,
         }
-    }
+    },
+    
 }
 })
