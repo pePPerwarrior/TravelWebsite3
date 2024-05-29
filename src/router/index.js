@@ -18,6 +18,7 @@ import QRcodeTickets from '@/views/QRcode/QRcodeTickets.vue'
 import QRDonePage from '@/views/QRcode/QRDonePage.vue'
 
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   //path 和 component 對應位子 
@@ -81,6 +82,11 @@ const router = createRouter({
     {
       path:'/note',
       component:NoteList
+    },
+    
+    {
+      path:'/qr',
+      component:QRcodeTickets
     }
 
   ]
