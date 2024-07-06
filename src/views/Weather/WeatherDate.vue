@@ -35,7 +35,7 @@
                 <div v-else-if="parseInt(weatherData.rainOdds[index]) <= 80 && parseInt(weatherData.rainOdds[index]) > 50">
                   <div class=""><i class="fa-solid fa-cloud-rain"></i></div> 
                 </div>
-                <div v-else-if="parseInt(weatherData.rainOdds[index]) > 70">
+                <div v-else-if="parseInt(weatherData.rainOdds[index]) > 80">
                   <div class=""><i class="fa-solid fa-cloud-showers-heavy"></i></div> 
                 </div>
                 <div v-else>
